@@ -322,7 +322,7 @@ spec:
                 name: demo-config
                 key: NEW_RELIC_APP_ID
           - name: NEW_RELIC_METADATA_REPOSITORY_URL
-            value: https://github.com/kenzoarima/front-end.git
+            value: https://github.com/c0d3tothemoon/sock-shop-front-end.git
           - name: NEW_RELIC_METADATA_COMMIT
             value: c3d6a21a4c9d96d3c1d012e2593c753f3519ac75
         securityContext:
