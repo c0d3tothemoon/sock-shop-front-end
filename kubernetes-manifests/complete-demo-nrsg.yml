@@ -324,7 +324,7 @@ spec:
           - name: NEW_RELIC_METADATA_REPOSITORY_URL
             value: https://github.com/c0d3tothemoon/sock-shop-front-end.git
           - name: NEW_RELIC_METADATA_COMMIT
-            value: 211de22b2d80d2692e833f76138dcc789b5ac305
+            value: 9a0dd9aa025fc526c0ca79f1b2d6f07bedc16da4
         securityContext:
           runAsNonRoot: false
           runAsUser: 0
