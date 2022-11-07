@@ -276,7 +276,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: kchua405/sock-shop-frontend:AddNR_Custom
+        image: archstein/sock-shop-front-end:Add_custom
         imagePullPolicy: Always
         resources:
           limits:
