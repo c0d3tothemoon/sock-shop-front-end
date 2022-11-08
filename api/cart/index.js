@@ -144,6 +144,7 @@ const newrelic = require('newrelic');
     }
 
     // throw an error when quantity is greater than 10
+    //designed that way
     if (parseInt(req.body.quantity) > 10) {
       console.log("Quantity limit per customer reached", req.body.quantity);
       throw new Error("Quantity limit per customer reached");
